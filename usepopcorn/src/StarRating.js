@@ -12,12 +12,12 @@ const starContainerStyle = {
   //   gap: "4px",
 };
 
-StartRating.propTypes = {
+StarRating.propTypes = {
   maxRating: PropTypes.number,
   onSetRating: PropTypes.func,
 };
 
-export default function StartRating({
+export default function StarRating({
   maxRating = 5,
   color = "#fcc419",
   size = 48,
